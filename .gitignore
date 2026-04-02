@@ -13,5 +13,8 @@ Pods/
 # macOS
 .DS_Store
 
+# Local build config (contains team ID)
+Local.xcconfig
+
 # Claude Code
 .claude/

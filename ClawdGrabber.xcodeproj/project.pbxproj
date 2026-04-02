@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3298F0472F7E9AE8004F2632 /* Local.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3298F0462F7E9AE8004F2632 /* Local.xcconfig */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		32314E282F7E74D500AC3059 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		32314E182F7E74D300AC3059 /* ClawdGrabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClawdGrabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32314E272F7E74D500AC3059 /* ClawdGrabberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClawdGrabberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32314E312F7E74D500AC3059 /* ClawdGrabberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClawdGrabberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3298F0462F7E9AE8004F2632 /* Local.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Local.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +84,7 @@
 				32314E2A2F7E74D500AC3059 /* ClawdGrabberTests */,
 				32314E342F7E74D500AC3059 /* ClawdGrabberUITests */,
 				32314E192F7E74D300AC3059 /* Products */,
+				3298F0462F7E9AE8004F2632 /* Local.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3298F0472F7E9AE8004F2632 /* Local.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +278,7 @@
 /* Begin XCBuildConfiguration section */
 		32314E392F7E74D500AC3059 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3298F0462F7E9AE8004F2632 /* Local.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -335,6 +343,7 @@
 		};
 		32314E3A2F7E74D500AC3059 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3298F0462F7E9AE8004F2632 /* Local.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
